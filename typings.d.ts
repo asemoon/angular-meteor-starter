@@ -1,6 +1,5 @@
 /// <reference types="zone.js" />
 /// <reference types="@types/meteor" />
-/// <reference types="@types/underscore" />
 /// <reference types="@types/chai" />
 /// <reference types="@types/mocha" />
 
@@ -33,8 +32,8 @@ declare module "meteor/hwillson:stub-collections" {
   import { Mongo } from "meteor/mongo";
 
   interface IStubCollections {
-    stub(collection: Mongo.Collection);
-    restore();
+    stub(collection: Mongo.Collection<any>): any;
+    restore(): any;
   }
 
   const StubCollections: IStubCollections;
