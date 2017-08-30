@@ -19,10 +19,16 @@
     "meteor-node-stubs": "^0.2.11"
   },
   "dependencies": {
+    "apollo-client": "^1.9.1",
     "babel-runtime": "^6.26.0",
-    "meteor-rxjs": "0.4.7",
-    "reflect-metadata": "0.1.10",
-    "rxjs": "5.4.3",
-    "zone.js": "0.8.17"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "graphql": "^0.11.2",
+    "graphql-server-express": "^1.1.2",
+    "graphql-tools": "^1.2.2",
+    "meteor-rxjs": "^0.4.7",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.17"
   }
 }
