@@ -16,7 +16,8 @@
     "@types/mocha": "^2.2.42",
     "chai": "^4.1.1",
     "chai-spies": "^0.7.1",
-    "meteor-node-stubs": "^0.2.11"
+    "meteor-node-stubs": "^0.2.11",
+    "ts-node": "^3.3.0"
   },
   "dependencies": {
     "apollo-client": "^1.9.1",
