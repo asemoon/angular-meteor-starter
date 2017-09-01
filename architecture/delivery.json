@@ -1,0 +1,26 @@
+
+{
+   "id" : "0324011660",
+   "status": "transiting, lost, shipped",
+    "edges" : [
+        {
+           "edgeId" : "8889898" ,
+            "from" : {"address" : "1123 Barclay St", "sender": "Mehdi Karam"},
+            "to" : {"address" : "213 Marjan Alley", "receiver": "John Owly"},
+            "carrier" : "FED",
+            "carrierTrackingId": "604401166545",
+            "next": "777778",
+            "signatory": "Signature pic"
+        },
+        {
+            "edgeId" : "777778",
+            "from" : {"address" : "1123 Barclay St", "sender": "Mehdi Karam"},
+            "to" : {"address" : "213 Marjan Alley", "receiver": "Max Ciel"},
+            "carrier" : "FED",
+            "carrierTrackingId": "604401166545",
+            "signatory": "Signature pic"
+        }
+    ],
+    "currentEdge": "8889898"
+}
+
