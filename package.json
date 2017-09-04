@@ -18,7 +18,8 @@
     "chai": "^4.1.1",
     "chai-spies": "^0.7.1",
     "meteor-node-stubs": "^0.2.11",
-    "ts-node": "^3.3.0"
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0"
   },
   "dependencies": {
     "apollo-client": "^1.9.1",
@@ -31,6 +32,7 @@
     "meteor-rxjs": "^0.4.7",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.4.3",
+    "typescript": "^2.5.2",
     "winston": "^2.3.1",
     "zone.js": "^0.8.17"
   }

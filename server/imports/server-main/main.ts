@@ -1,9 +1,14 @@
-import {createApolloServer} from 'meteor/apollo';
-import {makeExecutableSchema} from 'graphql-tools';
-import {typeDefs} from '../graphql/schema';
-import {resolvers} from '../graphql/resolvers';
+import {makeExecutableSchema} from "graphql-tools";
+import {createApolloServer} from "meteor/apollo";
+import {resolvers} from "../graphql/resolvers";
+import {typeDefs} from "../graphql/schema";
 
 export class Main {
+
+    public start(): void {
+        this.initApolloServer();
+    }
+
     private initApolloServer(): void {
         const schema = makeExecutableSchema({
             typeDefs,
@@ -12,9 +17,5 @@ export class Main {
         createApolloServer({
             schema,
         });
-    }
-
-    start(): void {
-        this.initApolloServer();
     }
 }
