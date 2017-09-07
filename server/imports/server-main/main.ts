@@ -11,11 +11,11 @@ export class Main {
 
     private initApolloServer(): void {
         const schema = makeExecutableSchema({
-            typeDefs: typeDefs,
+            typeDefs,
             resolvers,
         });
         createApolloServer({
-            schema,
+            schema
         });
     }
 }
