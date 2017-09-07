@@ -6,7 +6,7 @@
 
 // Thanks to: <https://github.com/xavcz> and <https://github.com/csillag>
 // <https://github.com/apollographql/meteor-integration/issues/65>
-
+// tslint:disable
 declare module 'meteor/apollo' {
     import { NetworkInterface } from 'apollo-client';
     import { GraphQLSchema } from 'graphql';

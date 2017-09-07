@@ -1,7 +1,7 @@
 import {makeExecutableSchema} from "graphql-tools";
 import {createApolloServer} from "meteor/apollo";
 import {resolvers} from "../graphql/resolvers";
-import {typeDefs} from "../graphql/schema";
+import * as typeDefs from "../models/typeDefs.graphql";
 
 export class Main {
 
@@ -11,7 +11,7 @@ export class Main {
 
     private initApolloServer(): void {
         const schema = makeExecutableSchema({
-            typeDefs,
+            typeDefs: typeDefs,
             resolvers,
         });
         createApolloServer({

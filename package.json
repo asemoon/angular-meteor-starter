@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@types/chai": "^4.0.4",
+    "@types/graphql": "^0.11.0",
     "@types/meteor": "^1.3.31",
     "@types/mocha": "^2.2.42",
     "@types/winston": "^2.3.5",

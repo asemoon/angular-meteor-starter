@@ -3,6 +3,12 @@
 /// <reference types="@types/chai" />
 /// <reference types="@types/mocha" />
 
+declare module "*.graphql" {
+    import {DocumentNode} from "graphql";
+    const value: DocumentNode;
+    export = value;
+}
+
 declare module "*.html" {
     const template: string;
     export default template;
