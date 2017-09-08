@@ -1,7 +1,7 @@
 import {makeExecutableSchema} from "graphql-tools";
 import {createApolloServer} from "meteor/apollo";
-import {resolvers} from "../graphql/resolvers";
-import * as typeDefs from "../models/typeDefs.graphql";
+import * as typeDefs from "../graphql/definitions/typeDefs.graphql";
+import {resolvers} from "../graphql/resolvers/resolvers";
 
 export class Main {
 
